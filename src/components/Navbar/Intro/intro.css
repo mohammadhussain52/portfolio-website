@@ -79,9 +79,10 @@
 }
 @media screen  and (max-width:840px) {
     .bg-img{
-        right: -10vw;
+        right: 0;
         width: 100vw;
         position: absolute;
+        height: 30rem;
     }
     .intro-content{
         font-size: 10vw;
@@ -90,6 +91,6 @@
         font-size: 4.5vw;
     }
     .intro-para {
-        width: 28rem ;
+        width: 24rem ;
     }
 }

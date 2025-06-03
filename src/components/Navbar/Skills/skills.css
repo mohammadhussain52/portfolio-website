@@ -62,4 +62,10 @@
         height: 2.25rem;
         width: 2.25rem;
     }
+    .skillbar {
+        flex-direction: column;
+    }
+    .skill-bar-text h2 {
+        line-height: 2rem;
+    }
 }

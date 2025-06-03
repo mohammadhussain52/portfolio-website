@@ -53,3 +53,16 @@ font-size: 3rem;
     max-width: 23rem;
     width: 100vw;
 }
+
+@media (max-width:450px) {
+.resume-detail-right {
+    max-width: 26rem;
+    border-right: none;
+}
+.resume-details{
+    padding: 4rem 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    display: flex;
+}    
+}

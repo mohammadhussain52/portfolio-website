@@ -21,7 +21,7 @@ const works = () => {
             <a href='https://roverjackets.com/'><img src={Portfolio5} alt='' className='works-img' /></a>
             <a href='https://k9ite.com/'><img src={Portfolio6} alt='' className='works-img' /></a>
         </div>
-        <a href='#'><button className='work-btn'>See More</button></a>
+        <a href='https://wa.me/923322467774'><button className='work-btn'>Contact Me</button></a>
     </section>
   )
 }
