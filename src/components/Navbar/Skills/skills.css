@@ -68,4 +68,7 @@
     .skill-bar-text h2 {
         line-height: 2rem;
     }
+    .skill-bars {
+        max-width: 100%;
+    }
 }
