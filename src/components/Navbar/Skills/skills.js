@@ -7,7 +7,7 @@ import frontend from '../../../assets/frontend.webp';
 const skills = () => {
   return (
    <section id='skills'> 
-   <h1 className='skill-title'> What I Do?</h1>
+   <h1 className='skill-title'> What I <strong>Do?</strong></h1>
    <p className='skill-description'>I'm a web developer with 1+ year of experience in WordPress, Shopify, and front-end development. I build clean, responsive websites that perform well and look great. Whether it's customizing WordPress, creating Shopify stores with Liquid, or handling HTML, CSS, JavaScript, and Tailwind. I focus on smooth, user-friendly experiences.</p>
    <div className='skill-bars'>
     <div className='skillbar'>

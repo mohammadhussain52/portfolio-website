@@ -35,7 +35,7 @@ const Contact = () => {
   return (
    <section id='contact'>
     <div id='my-skills'>
-    <h1 className='myskill-title'>Explore My Skills</h1>
+    <h1 className='myskill-title'>Explore My <strong>Skills</strong></h1>
     <div className='myskills-images'>
     <span className='myskills-card'>     
     <img src={wordpress} alt='Wordpress' className='skills-img'></img>

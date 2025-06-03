@@ -16,7 +16,7 @@
 }
 
 .skills-img {
-    object-fit: contain;
+    object-fit: cover;
     width: 9vw;
     height: 9rem;
     background: #2b2b2b;

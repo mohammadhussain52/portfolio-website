@@ -11,7 +11,7 @@ import Portfolio6 from '../../assets/K9.png';
 const works = () => {
   return (
     <section id='works'>
-        <h2 className='work-title'>My Portfolio</h2>
+        <h2 className='work-title'>My <strong>Portfolio</strong></h2>
         <p className='work-description'>I have designed various websites on Wordpress, Shopify. My expertise are the proofs that I work with dedication and enthusiasm also ensuring my clients to deliver their projects on time.</p>
         <div className='work-imgs'>
             <a href='https://evaluationgrid.co/'><img src={Portfolio1} alt='' className='works-img' /></a>
