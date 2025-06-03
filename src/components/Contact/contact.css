@@ -8,12 +8,14 @@
     margin: 0 auto;
     text-align: center;
 }
+
 .myskill-title {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+
 .skills-img {
-    object-fit: cover;
+    object-fit: contain;
     width: 9vw;
     height: 9rem;
     background: #2b2b2b;
@@ -21,21 +23,25 @@
     border-radius: 1em;
     padding: 1rem 1rem;
 }
+
 .skills-img:hover {
     border: 1px solid #fff041;
     transition: 0.1s ease;
 }
+
 span.myskills-card {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .myskills-images {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
 span.myskills-card:hover label {
     background: #fff041;
     color: #000;
@@ -43,16 +49,18 @@ span.myskills-card:hover label {
     border-radius: 2rem;
     min-width: 8rem;
 }
+
 .contactpage-description {
     padding: 1rem;
     font-weight: 300;
 }
+
 .contactpage-title {
     font-size: 3rem;
     margin-top: 2rem;
 }
-form.contact-form
- {
+
+form.contact-form {
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -60,8 +68,11 @@ form.contact-form
     width: 90vw;
     max-width: 60rem;
 }
-.name, .email, .subject, .message
- {
+
+.name,
+.email,
+.subject,
+.message {
     width: 100%;
     font-size: medium;
     max-width: 40rem;
@@ -72,6 +83,7 @@ form.contact-form
     border-radius: 0.5rem;
     background: rgb(40, 40, 40);
 }
+
 .submit-btn {
     border: none;
     background: #fff;
@@ -80,6 +92,7 @@ form.contact-form
     margin: 2rem 0;
     cursor: pointer;
 }
+
 .social-links {
     width: 100%;
     max-width: 60rem;
@@ -97,11 +110,10 @@ form.contact-form
     border-radius: 100%;
     color: #000;
 }
-@media (max-width: 450px){
-    .skills-img {
-    width: 25vw;
-    height: 6rem;      
-    } 
-}
- 
 
+@media (min-width: 450px) {
+    .myskills-card .skills-img {
+        width: 25vw !important;
+        height: 6rem !important;
+    }
+}
