@@ -56,7 +56,7 @@ font-size: 3rem;
 
 @media (max-width:450px) {
 .resume-detail-right {
-    max-width: 26rem;
+    max-width: 17rem;
     border-right: none;
 }
 .resume-details{
@@ -64,5 +64,11 @@ font-size: 3rem;
     flex-direction: column;
     gap: 2rem;
     display: flex;
+    margin: 1rem;
+    max-width: 26rem;
+}
+.resume-title2
+ {
+    line-height: 3rem;
 }    
 }
