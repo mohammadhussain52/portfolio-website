@@ -112,7 +112,7 @@ form.contact-form {
     color: #000;
 }
 
-@media (min-width: 450px) {
+@media (max-width: 450px) {
     .myskills-card .skills-img {
         width: 25vw !important;
         height: 6rem !important;
