@@ -91,7 +91,7 @@ form.contact-form {
     border-radius: 0.5rem;
     margin: 2rem 0;
     cursor: pointer;
-    color: #000;
+    color: #000 !important;
 }
 
 .social-links {
