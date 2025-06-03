@@ -24,7 +24,7 @@
     content: '';
     position: absolute;
     width: 200px;
-    height: 200px;
+    height: 200PX;
     background: #fff041ab;
     top: 10px;
     animation: topbottom 10s infinite;
@@ -69,13 +69,13 @@
 }
 @keyframes topbottom {
     0%{
-        transform: translateY(50px);
+        transform: translateX(50px);
     }
     50%{
-        transform: translateY(-6px);
+        transform: translateX(-6px);
     }
     100%{
-        transform: translateY(50px);
+        transform: translateX(50px);
     }
 }
 @media screen  and (max-width:840px) {
