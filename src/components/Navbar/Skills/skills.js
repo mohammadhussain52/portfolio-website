@@ -14,7 +14,7 @@ const skills = () => {
         <img src={wordpress} alt='Wordpress icon' className='skillbar-img'/>
         <div className='skill-bar-text'>
             <h2>Wordpress Development</h2>
-            <p>I'm a WordPress developer with over a year of experience building and customizing websites using themes, plugins, and page builders like Elementor and WPBakery. I focus on creating responsive, fast, and user-friendly sites that are easy to manage and tailored to each client's needs.</p>
+            <p>I'm a WordPress developer with more than 1 year of experience building and customizing websites using themes, plugins, and page builders like Elementor, Divi and WPBakery. I focus on creating responsive, fast, and user-friendly sites that are easy to manage and tailored to each client's needs.</p>
         </div>
     </div>
     <div className='skillbar'>
