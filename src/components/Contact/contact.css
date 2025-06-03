@@ -117,4 +117,7 @@ form.contact-form {
         width: 25vw !important;
         height: 6rem !important;
     }
+    .social-icon {
+        font-size: 2.60rem;
+    }
 }

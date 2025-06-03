@@ -55,12 +55,12 @@
 }
 @media screen and (max-width:480px) {
     .skill-bar-text p {
-        font-size: 2vw;
+        font-size: 0.85rem;
         
     }
     .skillbar-img {
-        height: 2.25rem;
-        width: 2.25rem;
+        height: 3.25rem;
+        width: 3.25rem;
     }
     .skillbar {
         flex-direction: column;

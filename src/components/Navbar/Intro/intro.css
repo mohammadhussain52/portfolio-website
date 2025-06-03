@@ -60,6 +60,7 @@
     border-radius: 2rem;
     cursor: pointer;
     color: #000 !important;
+    border: none;
 }
 .btn-img {
     object-fit: cover;
@@ -92,5 +93,6 @@
     }
     .intro-para {
         width: 24rem ;
+        padding-right: 3.5rem;
     }
 }
