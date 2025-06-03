@@ -59,6 +59,7 @@
     padding: 0.75rem 1.5rem;
     border-radius: 2rem;
     cursor: pointer;
+    color: #000 !important;
 }
 .btn-img {
     object-fit: cover;
