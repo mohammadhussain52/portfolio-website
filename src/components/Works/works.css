@@ -46,6 +46,34 @@
     transition: 0.5s ease;
     color: #000 !important;
 }
+.portfolios p
+ {
+    display: none;
+    position: relative;
+}
+.portfolios {
+    position: relative;
+    transition: height 9s;
+}
+.portfolios:hover p {
+    display: block;
+    background: rgb(50 50 50 / 60%);
+    transition: 1.2s ease-out;
+    position: absolute;
+    top: 7rem;
+    color: #fff !important;
+    padding: 1rem;
+    width: 100%;
+    max-width: 20rem;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateY(0px);
+    transition-duration: 9s;
+    z-index: 0000;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    left: 0.75rem;
+}
 @media screen and (max-width:585px) {
     .works-img {
         height: 48vw;
