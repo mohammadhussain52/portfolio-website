@@ -83,4 +83,12 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .portfolios:hover p {
+        width: 100%;
+        max-width: 15rem;
+        margin: 0 auto;
+        font-size: 1rem;
+        border-radius: 1rem;
+        left: 20px;
+    }
 }
