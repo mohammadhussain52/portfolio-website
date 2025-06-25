@@ -82,6 +82,7 @@ const Works = () => {
             background: "#fff041",
             color: "#000",
             cursor: "pointer",
+            width: "138px",
           }}
         >
           Wordpress
@@ -95,6 +96,7 @@ const Works = () => {
             background: "#fff041",
             color: "#000",
             cursor: "pointer",
+            width: "138px",
           }}
         >
           Shopify
