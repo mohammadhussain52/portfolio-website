@@ -28,11 +28,14 @@ strong {
     border: none;
     outline: none;
     background-color: #FFF;
-    color: #000;
+    color: #000 !important;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
     transition: 1ms ease-in-out;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
 }
 
 .none {

@@ -6,6 +6,7 @@ import Works from "./components/Works/works";
 import Resume from "./components/Resume/resume";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
+import { FaArrowUp } from "react-icons/fa";
 
 const App = () => {
   const [showBtn, setShowBtn] = useState("myBtn none");
@@ -46,7 +47,7 @@ const App = () => {
         className={showBtn}
         title="Go to Top"
       >
-        Top{" "}
+        <FaArrowUp />
       </button>
     </div>
   );
