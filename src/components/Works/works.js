@@ -81,6 +81,7 @@ const Works = () => {
             borderRadius: "50px",
             background: "#fff041",
             color: "#000",
+            cursor: "pointer",
           }}
         >
           Wordpress
@@ -93,6 +94,7 @@ const Works = () => {
             borderRadius: "50px",
             background: "#fff041",
             color: "#000",
+            cursor: "pointer",
           }}
         >
           Shopify
