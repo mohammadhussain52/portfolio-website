@@ -11,6 +11,7 @@ import Portfolio8 from "../../assets/QM.png";
 import Portfolio9 from "../../assets/ML.png";
 import Portfolio10 from "../../assets/PL.png";
 import Portfolio11 from "../../assets/FV.png";
+import Portfolio12 from "../../assets/ABZ.png";
 
 const Works = () => {
   const [tab, setTab] = useState(1);
@@ -50,6 +51,12 @@ const Works = () => {
       img: Portfolio10,
       name: "Palm Living Dubai",
       link: "https://palmviewliving.com/",
+      key: "wordpress",
+    },
+    {
+      img: Portfolio12,
+      name: "ABZ Appliances Repair",
+      link: "https://abzappliancerepair.com/",
       key: "wordpress",
     },
     {
