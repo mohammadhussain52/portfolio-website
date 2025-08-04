@@ -81,13 +81,13 @@ const Navbar = () => {
         </button>
       </a>
 
-      <a href="#">
+      {/* Mobile Menu */}
+      <a href="#" className="mob_menu">
         <img
           src={menu}
           alt="Menu"
           className="mob-menu"
           onClick={() => setShowMenu(!showMenu)}
-          style={{ display: showMenu ? "flex" : "none" }}
         />
       </a>
       <div className="nav-menu" style={{ display: showMenu ? "flex" : "none" }}>

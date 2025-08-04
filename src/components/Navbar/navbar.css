@@ -84,6 +84,17 @@ img.mob-menu {
     background: rgb(30, 30, 30);
 }
 
+.mob_menu {
+    display: block;
+}
+
+@media (min-width: 1200px) {
+    .mob_menu {
+        display: none !important;
+    }
+}
+
+
 @media (max-width:720px) {
     .mob-menu {
         display: block !important;
