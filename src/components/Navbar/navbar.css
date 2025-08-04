@@ -12,26 +12,31 @@
     z-index: 3;
     background: rgb(30, 30, 30);
 }
+
 .desktop-logo {
     object-fit: cover;
     height: 5rem;
     width: 5rem;
 }
+
 .desktop-menu-list-item {
     margin: 1rem;
     cursor: pointer;
 }
+
 .desktop-menu-list-item:hover {
     color: #fff041;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid #fff041;
 }
+
 .desktop-menu-img {
     object-fit: cover;
     height: 1rem;
     width: 1rem;
     margin: 1rem;
 }
+
 .desktop-menu-btn {
     background: #fff;
     border: none;
@@ -43,16 +48,19 @@
     border-radius: 2rem;
     cursor: pointer;
 }
+
 .active {
     color: #fff041;
     border-bottom: 3px solid #fff041;
     padding-bottom: 0.5rem;
 }
+
 img.mob-menu {
     display: none;
     object-fit: cover;
-    height: 1.8rem;
+    height: 1.3rem;
 }
+
 .nav-menu {
     position: absolute;
     top: 4rem;
@@ -66,6 +74,7 @@ img.mob-menu {
     background: rgb(40, 40, 40);
     border-radius: 1rem;
 }
+
 .list-item {
     color: #fff;
     padding: 0.5rem 3rem;
@@ -74,17 +83,21 @@ img.mob-menu {
     cursor: pointer;
     background: rgb(30, 30, 30);
 }
-@media  (max-width:720px) {
-.mob-menu{
-    display: block !important;
-}
-.nav-menu {
-    display: block;
-}
-.desktop-menu {
-    display: none;
-}
-button.desktop-menu-btn {
-    display: none;
-}    
+
+@media (max-width:720px) {
+    .mob-menu {
+        display: block !important;
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    button.desktop-menu-btn {
+        display: none;
+    }
 }
