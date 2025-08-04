@@ -7,6 +7,10 @@ import Portfolio4 from "../../assets/SM.png";
 import Portfolio5 from "../../assets/RJ.png";
 import Portfolio6 from "../../assets/K9.png";
 import Portfolio7 from "../../assets/DD.png";
+import Portfolio8 from "../../assets/QM.png";
+import Portfolio9 from "../../assets/ML.png";
+import Portfolio10 from "../../assets/PL.png";
+import Portfolio11 from "../../assets/FV.png";
 
 const Works = () => {
   const [tab, setTab] = useState(1);
@@ -31,6 +35,24 @@ const Works = () => {
       key: "wordpress",
     },
     {
+      img: Portfolio8,
+      name: "Q Marble & Granite",
+      link: "https://qmarble-granite.co.uk/",
+      key: "wordpress",
+    },
+    {
+      img: Portfolio9,
+      name: "Moonlight Hosiery",
+      link: "https://moonlighttextile.com/",
+      key: "wordpress",
+    },
+    {
+      img: Portfolio10,
+      name: "Palm Living Dubai",
+      link: "https://palmviewliving.com/",
+      key: "wordpress",
+    },
+    {
       img: Portfolio4,
       name: "The Simple Man",
       link: "https://www.thesimplemanstore.com/",
@@ -46,6 +68,12 @@ const Works = () => {
       img: Portfolio6,
       name: "k9ite",
       link: "https://k9ite.com/",
+      key: "shopify",
+    },
+    {
+      img: Portfolio11,
+      name: "Fully Vital",
+      link: "https://fullyvital.com/",
       key: "shopify",
     },
     {
