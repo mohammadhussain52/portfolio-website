@@ -122,7 +122,6 @@
         padding: 0.75rem;
     }
 
-
     .portfolios {
         width: 50%;
         padding: 0.75rem;
@@ -130,5 +129,9 @@
 
     .work-title {
         font-size: 2rem;
+    }
+
+    .work-btn {
+        margin: 1rem 0;
     }
 }
