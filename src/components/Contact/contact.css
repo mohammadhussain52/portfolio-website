@@ -20,7 +20,7 @@
     width: 9vw;
     height: 9rem;
     background: #2b2b2b;
-    margin: 1rem;
+    margin: 0.5rem;
     border-radius: 1em;
     padding: 1rem 1rem;
 }
@@ -124,8 +124,12 @@ form.contact-form {
     }
 
     .myskill-title {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
         line-height: 3rem;
+    }
+
+    .contactpage-title {
+        font-size: 2rem;
     }
 }
