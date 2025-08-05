@@ -113,14 +113,15 @@
     }
 
     .portfolios:hover p {
-        width: 100%;
-        max-width: 11rem;
+        width: 85%;
         margin: 0 auto;
         font-size: 0.75rem;
         border-radius: 1rem;
-        left: 30px;
+        left: 18px;
         top: 5rem;
+        padding: 0.75rem;
     }
+
 
     .portfolios {
         width: 50%;
