@@ -26,20 +26,20 @@
     width: 200px;
     height: 200PX;
     background: #fff041ab;
-    top: 10px;
+    top: 0;
     animation: topbottom 10s infinite;
     border-radius: 100%;
 }
 
 .intro-content {
     width: 100vw;
-    height: 100vh;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .hello {
@@ -99,6 +99,7 @@
     .intro-content {
         font-size: 7vw;
         justify-content: flex-end;
+        height: 100vh;
     }
 
     .hello {
@@ -112,5 +113,6 @@
 
     .intro-content::before {
         z-index: -4;
+        top: 3rem;
     }
 }
